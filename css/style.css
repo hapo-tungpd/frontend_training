@@ -307,6 +307,7 @@ button {
 .imgCustomDaily {
 	width: 910px;
   margin-left: 0px;
+  height: 618px;
 }
 
 .group {
@@ -462,7 +463,6 @@ button {
   width: 149.64px;
 }
 
-
 .liveShow {
   text-align: center;
   -moz-transition: all 0.5s;
@@ -489,7 +489,6 @@ button {
   font-weight: 300;
   line-height: 13px;
   margin: auto;
-  /*padding-top: 16px;*/
 }
 
 .job {
