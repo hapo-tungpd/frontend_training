@@ -419,6 +419,10 @@ button {
   margin-left: 19%;
 }
 
+.customImageCustomers {
+  height: 586px;
+}
+
 .btnStartCustomers {
 	position: relative;
   margin-top: 29px;
@@ -451,7 +455,7 @@ button {
 .first-our-customers-div {
 	float: left;
 	height: 127px;
-	width: 1586.69px;
+	width: 1551.55px;
 	margin-top: 48px;
   padding-left: 368.45px;
 }
