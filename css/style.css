@@ -452,20 +452,23 @@ button {
 	height: 127px;
 	width: 1586.69px;
 	margin-top: 48px;
-	padding-left: 333.31px;
+  padding-left: 368.45px;
 }
 
 .images-customers {
+  text-align: center;
   float: left;
   height: 80px;
   width: 149.64px;
 }
 
+
 .liveShow {
-  margin-left: 78px;
+  text-align: center;
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: 0.1s;
+  padding-bottom: 16px;
 }
 
 .liveShow:hover {
@@ -478,20 +481,18 @@ button {
 	margin-top: 25px;
 }
 .name {
-  position: relative;
-  width: 70px;
+  width: 70px;  
   color: #FFFFFF;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto-Regular;
   font-size: 13px;
   text-align: center;
-  margin-left: 81px;
   font-weight: 300;
   line-height: 13px;
-  margin-top: 16px;
+  margin: auto;
+  /*padding-top: 16px;*/
 }
 
 .job {
-  position: relative;
   height: 31px;
   width: 58px;
   color: #FFFFFF;
@@ -500,7 +501,7 @@ button {
   font-weight: 300;
   line-height: 13px;
   text-align: center;
-  margin-left: 85px;
+  margin: auto;
   margin-top: 2px;
 }
 .second-our-customers-div {
@@ -577,7 +578,6 @@ button {
 }
 
 .projects {
-	/*float: left;*/
 	height: 664px;
   width: 1920px;
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
@@ -602,11 +602,11 @@ button {
 .imgProjects {
 	margin-left: -15px;
   width: 975px;
-  margin-top: 14px;
+  margin-top: 34px;
 }
 
 .imgCustomProjects {
-	width: 975px;
+	height: 630px;
 }
 
 .footer {
