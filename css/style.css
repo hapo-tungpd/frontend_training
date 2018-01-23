@@ -64,7 +64,7 @@ button {
 	border: 2px solid #8BC34A;
 	border-radius: 100px;
   color: #8BC34A;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto-Regular;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -307,6 +307,7 @@ button {
 .imgCustomDaily {
 	width: 910px;
   margin-left: 0px;
+  height: 618px;
 }
 
 .group {
@@ -462,7 +463,6 @@ button {
   width: 149.64px;
 }
 
-
 .liveShow {
   text-align: center;
   -moz-transition: all 0.5s;
@@ -489,7 +489,6 @@ button {
   font-weight: 300;
   line-height: 13px;
   margin: auto;
-  /*padding-top: 16px;*/
 }
 
 .job {
@@ -726,6 +725,7 @@ button {
 	line-height: 13px;
 	margin-left: 38px;
 }
+
 .ti-facebook {
 	margin-left: 119px;
 }
