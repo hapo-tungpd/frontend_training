@@ -242,7 +242,6 @@ button {
   font-family: Roboto-Italic;
   font-size: 13.5px;
   font-weight: 400;
-  /*font-style: italic;*/
   line-height: 19px;
   margin-top: 16px;
 }
@@ -263,8 +262,8 @@ button {
 .btnStartMembers,
 .btnStartCustomers,
 .btnStartProject {
-	margin-top: 40px;
   margin-left: 0px;
+	margin-top: 40px;
 }
 
 .btnStartToday:hover {
@@ -434,37 +433,54 @@ button {
 }
 
 .our-customer-layout {
-  padding-top: 50px;
-  height: 494px;
+  text-align: center;
+  position: relative;
+  height: 544px;
+  background-size: cover;
   width: 1920px;
   background-image: url("../images/testimonials.jpg");
 }
 
 .our-customer {
-  height: 63px;
-  width: 1920px;
   color: #FFFFFF;
   font-family: Roboto-Light;
   font-size: 48px;
   font-weight: 300;
   line-height: 63px;
   text-align: center;
-  float: left;
+  padding-top: 50px;
 }
 
-.first-our-customers-div {
-	float: left;
-	height: 127px;
-	width: 1551.55px;
-	margin-top: 48px;
-  padding-left: 368.45px;
+.our-customer-layout .first-our-customers-div {
+  padding-top: 14px;
+  width: 58.54%;
+  margin: auto;
+}
+
+.first-our-customers-div .owl-item {
+    height: 147px;
+    padding-top: 20px;
 }
 
 .images-customers {
-  text-align: center;
-  float: left;
   height: 80px;
-  width: 149.64px;
+  width: 80px;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  line-height: 14px;
+  font-family: Roboto;
+  font-size: 14px;
+  margin: auto;
+}
+
+.images-customers img
+{
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin: auto;
 }
 
 .liveShow {
@@ -476,61 +492,28 @@ button {
 }
 
 .liveShow:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-.liveShow:hover + .name {
-	margin-top: 25px;
+    max-width: 100%;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 .name {
-  width: 70px;  
   color: #FFFFFF;
   font-family: Roboto-Regular;
   font-size: 13px;
   text-align: center;
   font-weight: 300;
-  line-height: 13px;
-  margin: auto;
+  line-height: 25px;
 }
 
 .job {
-  height: 31px;
-  width: 58px;
   color: #FFFFFF;
   font-family: Roboto-Regular;
   font-size: 10px;
   font-weight: 300;
   line-height: 13px;
-  text-align: center;
-  margin: auto;
-  margin-top: 2px;
-}
-.second-our-customers-div {
-  float: left;
-  height: 11px;
-  width: 1920px;
-  margin-top: 29.5px;
 }
 
-.second-oval {
-  float: left;
-  box-sizing: border-box;
-  height: 11px;
-  width: 10.7px;
-  border: 1px solid #979797;
-  border-radius: 50%;
-  margin-left: 21.29px;
-}
-.first-oval {
-	float: left;
-  margin-left: 932px;
-  height: 10px;
-  width: 9.71px;
-  background-color: #D8D8D8;
-  border-radius: 50%;
-}
 .ti-quote-left {
   opacity: 0.4;
   color: #FFFFFF;
@@ -733,5 +716,3 @@ button {
 .ti-facebook {
 	margin-left: 119px;
 }
-
-
