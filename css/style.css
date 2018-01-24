@@ -113,14 +113,14 @@ button {
   margin-left: 13.12%;
 }
 
-.txtIcon {
+.text-icon-banner {
 	height: 48px;
 	padding-top: 14px;
 }
 
-.txtBetter,
-.txtFaster,
-.txtTogether {
+.text-better,
+.text-faster,
+.text-together {
 	display: inline-block;
   color: #283238;
   font-family: Roboto-Light;
@@ -129,19 +129,19 @@ button {
   line-height: 48px;
 }
 
-.txtBetter {
+.text-better {
 	margin-left: 30.47%;
 }
 
-.txtFaster {
+.text-faster {
 	margin-left: 11.93%;
 }
 
-.txtTogether {
+.text-together {
 	margin-left: 9.53%;
 }
 
-.txtTitleBanner {
+.text-title-banner {
 	color: #283238;
   font-family: Roboto-Regular;
   font-size: 18px;
@@ -152,12 +152,12 @@ button {
   text-align: center;
 }
 
-.btnStart,
-.btnStartToday,
-.btnStartDaily,
-.btnStartMembers,
-.btnStartCustomers,
-.btnStartProject {
+.button-start,
+.button-start-today-i-learnt,
+.button-start-daily-report,
+.button-start-members,
+.button-start-customers,
+.button-start-projects {
 	border-radius: 100px;
   background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
@@ -172,7 +172,7 @@ button {
   padding: 18px 55px;
 }
 
-.btnStart:hover {
+.button-start:hover {
   cursor: pointer;
   background: linear-gradient(311.12deg, #429321 0%, #B4EC51 100%);
 }
@@ -191,25 +191,25 @@ button {
 	height: 100%;
 }
 
-.imgTodayILearnt,
-.imgCustomers {
+.image-today-i-learnt,
+.image-customers {
 	margin-top: 52px;
 	margin-left: 181px;
 }
 
-.contentToday,
-.contentCustomers {
+.content-today-i-learnt,
+.content-customers {
 	margin-top: 129px;
 	margin-left: 15px;
 	width: 555px;
 	height: 401px;
 }
 
-.imgIcon,
-.imgIconDaily,
-.imgIconMembers,
-.imgIconCustomers,
-.imgIconProjects {
+.icon-content-today-i-learnt,
+.icon-content-daily-report,
+.icon-content-members,
+.icon-content-customers,
+.icon-content-projects {
 	display: inline-block;
   color: #444444;
   font-family: themify;
@@ -218,11 +218,11 @@ button {
   margin-top: 15px;
 }
 
-.txtHeaderToday,
-.txtHeaderDaily,
-.txtHeaderMembers,
-.txtHeaderCustomers,
-.txtHeaderProjects {
+.text-header-today-i-learnt,
+.text-header-daily-report,
+.text-header-members,
+.text-header-customers,
+.text-header-projects {
 	position: relative;
   display: inline-block;
   color: #444444;
@@ -233,11 +233,11 @@ button {
   margin-left: 15px;
 }
 
-.txtTitleToday,
-.txtTitleDaily,
-.txtTitleMembers,
-.txtTitleCustomers,
-.txtTitleProjects {
+.text-title-today-i-learnt,
+.text-title-daily-report,
+.text-title-members,
+.text-title-customers,
+.text-title-projects {
 	color: #283238;
   font-family: Roboto-Italic;
   font-size: 13.5px;
@@ -246,9 +246,9 @@ button {
   margin-top: 16px;
 }
 
-.txtContentToday,
-.txtContentDaily,
-.txtContentProjects {
+.text-content-today-i-learnt,
+.text-content-daily-report,
+.text-content-projects {
 	color: #283238;
   font-family: Roboto-Regular;
   font-size: 13.2px;
@@ -257,16 +257,16 @@ button {
   margin-top: 38px;
 }
 
-.btnStartToday,
-.btnStartDaily,
-.btnStartMembers,
-.btnStartCustomers,
-.btnStartProject {
+.button-start-today-i-learnt,
+.button-start-daily-report,
+.button-start-members,
+.button-start-customers,
+.button-start-projects {
   margin-left: 0px;
 	margin-top: 40px;
 }
 
-.btnStartToday:hover {
+.button-start-today-i-learnt:hover {
   cursor: pointer;
   background: linear-gradient(311.12deg, #429321 0%, #B4EC51 100%);
 }
@@ -277,24 +277,24 @@ button {
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
 }
 
-.contentDaily {
+.content-daily-report {
 	margin-top: 144px;
 	margin-left: 390px;
 	width: 457px;
 	height: 508px;
 }
 
-.txtContentDaily {
+.text-content-daily-report {
 	margin-top: 30px;
 }
 
-.btnStartDaily:hover {
+.button-start-daily-report:hover {
   cursor: pointer;
   background: linear-gradient(311.12deg, #429321 0%, #B4EC51 100%);
 }
 
-.imgDaily,
-.imgProjects {
+.image-daily-report,
+.image-projects {
 	width: 913px;
   height: 630px;
   position: absolute;
@@ -303,7 +303,7 @@ button {
   overflow: hidden;
 }
 
-.imgCustomDaily {
+.image-custom-daily-report {
 	width: 910px;
   margin-left: 0px;
   height: 618px;
@@ -315,24 +315,24 @@ button {
 	background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
 }
 
-.contentGroup {
+.content-group {
 	margin-left: 316.8px;
 	height: 128px;
 	margin-right: 316.8px;
 	padding-top: 68.75px;
 }
 
-.customItemGroup {
+.custom-item-group {
 	float: left;
 	width: 20%;
 }
 
-.imgItem {
+.image-item-group {
 	padding-left: 28%;
 	width: 109.5px;
 }
 
-.txtItemGroup {
+.text-item-group {
 	font-size: 18px;
 	font-weight: 500;
 	letter-spacing: 1px;
@@ -350,25 +350,25 @@ button {
   box-shadow: 0 0px 35px 0 rgba(0, 0, 0, 0.1);
 }
 
-.contentMembers {
+.content-members {
 	margin-left: 40.6%;
   width: 57.8%;
   margin-top: 97px;
   height: 470px;
 }
 
-.customItemMember,
-.customItemCustomers {
+.custom-item-member,
+.custom-item-customers {
 	position: relative;
   height: 50px;
   width: 100%;
   margin-top: 17px;
 }
 
-.itemCheckBox,
-.itemLock,
-.itemCup,
-.itemStartUp {
+.item-check-box,
+.item-lock,
+.item-cup,
+.item-start-up {
 	float: left;
   color: #8BC34A;
   font-family: themify;
@@ -377,8 +377,8 @@ button {
   text-align: justify;
 }
 
-.itemTextMembers,
-.itemTextCustomers {
+.item-text-members,
+.item-text-customers {
 	float: left;
   width: 93.5%;
   color: #283238;
@@ -391,17 +391,17 @@ button {
   
 }
 
-.btnStartMembers {
+.button-start-members {
 	position: relative;
 	margin-top: 29px;
 }
 
-.btnStartMembers:hover {
+.button-start-members:hover {
   cursor: pointer;
   background: linear-gradient(311.12deg, #429321 0%, #B4EC51 100%);
 }
 
-.imgMembers {
+.image-members {
 	float: left;
   height: 401px;
   margin-left: 3%;
@@ -413,21 +413,21 @@ button {
   width: 1920px;
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
 }
-.imgCustomers {
+.image-customers {
 	position: relative;
   margin-left: 19%;
 }
 
-.customImageCustomers {
+.custom-image-customers {
   height: 604px;
 }
 
-.btnStartCustomers {
+.button-start-customers {
 	position: relative;
   margin-top: 29px;
 }
 
-.btnStartCustomers:hover {
+.button-start-customers:hover {
   cursor: pointer;
   background: linear-gradient(311.12deg, #429321 0%, #B4EC51 100%);
 }
@@ -441,7 +441,7 @@ button {
   background-image: url("../images/testimonials.jpg");
 }
 
-.our-customer {
+.text-our-customer {
   color: #FFFFFF;
   font-family: Roboto-Light;
   font-size: 48px;
@@ -482,7 +482,7 @@ button {
   margin: auto;
 }
 
-.liveShow {
+.live-show {
   text-align: center;
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -574,29 +574,29 @@ button {
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
 }
 
-.contentProjects {
+.content-projects {
 	margin-top: 97px;
   height: 470px;
   margin-left: 40.6%;
   width: 47.6%;
 }
 
-.txtContentProjects {
+.text-content-projects {
 	margin-top: 30px;
 }
 
-.btnStartProject:hover {
+.button-start-projects:hover {
   cursor: pointer;
   background: linear-gradient(311.12deg, #429321 0%, #B4EC51 100%);
 }
 
-.imgProjects {
+.image-projects {
 	margin-left: -15px;
   width: 975px;
   margin-top: 34px;
 }
 
-.imgCustomProjects {
+.image-custom-projects {
 	height: 630px;
 }
 
@@ -615,7 +615,7 @@ button {
 	padding-bottom: 12px;
 }
 
-.imgHapo {
+.image-hapo-erp {
 	padding-left: 389px;
 	width: 96px;
 	height: 74px;
@@ -629,10 +629,10 @@ button {
 	width: 96px;
 }
 
-.txtGet,
-.txtLearn,
-.txtHow,
-.txtLegal {
+.text-title-get-in-touch,
+.text-title-learn-more,
+.text-title-how-to-works,
+.text-title-legal {
 	text-decoration: none;
 	float: left;
 	margin-top: 54px;
@@ -644,19 +644,19 @@ button {
 	height: 18px;
 }
 
-.txtGet {
+.text-title-get-in-touch {
 	margin-left: 100px;
 }
 
-.txtLearn {
+.text-title-learn-more {
 	margin-left: 109px;
 }
 
-.txtHow {
+.text-title-how-to-works {
 	margin-left: 114px;
 }
 
-.txtLegal {
+.text-title-legal {
 	margin-left: 97px;
 }
 
@@ -665,11 +665,11 @@ button {
 	height: 40px;
 	float: left;
 }
-.txtHapo,
-.txtBottomGet,
-.txtBottomLearn,
-.txtBottomHow,
-.txtBottomLegal {
+.text-hapo-erp,
+.text-bottom-get-in-touch,
+.text-bottom-learn-more,
+.text-bottom-how-to-works,
+.text-bottom-legal {
 	text-decoration: none;
 	float: left;
 	font-family: Roboto-Regular;
@@ -679,26 +679,26 @@ button {
 	line-height: 20px;
 	height: 40px;
 }
-.txtHapo {
+.text-hapo-erp {
 	margin-left: 389px;
 	margin-top: 24px;
 	height: 13px;
 	line-height: 13px;
 }
 
-.txtBottomGet {
+.text-bottom-get-in-touch {
 	margin-left: 127px;
 }
 
-.txtBottomLearn {
+.text-bottom-learn-more {
 	margin-left: 132px;
 }
 
-.txtBottomHow {
+.text-bottom-how-to-works {
 	margin-left: 119px;
 }
 
-.txtBottomLegal {
+.text-bottom-legal {
 	margin-left: 117px;
 }
 
