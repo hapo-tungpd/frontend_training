@@ -624,8 +624,6 @@ button {
 	width: 1920px;
 	height: 178px;
 	background-color: #39474e;
-	box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
-	border: solid 1px #eceff1;
 }
 
 .first-footer-div {
