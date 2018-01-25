@@ -75,6 +75,10 @@ button {
   cursor: pointer;
 }
 
+.sign-in:hover {
+  background-color: #d5eabc;
+}
+
 .hapo-erp-logo {
 	height: 62px;
 	padding-top: 181px;
@@ -226,7 +230,7 @@ button {
 	position: relative;
   display: inline-block;
   color: #444444;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto-Light;
   font-size: 48px;
   font-weight: 300;
   line-height: 63px;
@@ -251,7 +255,7 @@ button {
 .text-content-projects {
 	color: #283238;
   font-family: Roboto-Regular;
-  font-size: 13.2px;
+  font-size: 13px;
   line-height: 24px;
   text-align: justify;
   margin-top: 38px;
@@ -365,6 +369,14 @@ button {
   margin-top: 17px;
 }
 
+.custom-item-member-first{
+  margin-top: 30px;
+}
+
+.custom-item-customers-first {
+  margin-top: 38px;
+}
+
 .item-check-box,
 .item-lock,
 .item-cup,
@@ -383,7 +395,7 @@ button {
   width: 93.5%;
   color: #283238;
   text-align: justify;
-  margin-top: 1px;
+  /*margin-top: 1px;*/
   margin-left: 18px;
   font-family: Roboto-Regular;
   font-size: 13px;
