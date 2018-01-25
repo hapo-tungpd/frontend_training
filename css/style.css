@@ -263,11 +263,19 @@ button {
 
 .button-start-today-i-learnt,
 .button-start-daily-report,
-.button-start-members,
-.button-start-customers,
 .button-start-projects {
   margin-left: 0px;
 	margin-top: 40px;
+}
+
+.button-start-members {
+  margin-left: 0px;
+  margin-top: 29px;
+}
+
+.button-start-customers {
+  margin-left: 0px;
+  margin-top: 30px;
 }
 
 .button-start-today-i-learnt:hover {
